@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:700px) {
+    
+body {
+    background-color: #6A0DAD;
+    color: white;
+}
+.logo{
+    padding: 10px;
+}
+.splash{
+    margin-top: 80px;
+    top: 40px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.splash a{
+    font-size: 20px;
+    margin-top: 10px;
+    top: 150px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+} 
+.splash img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+} 
+}
